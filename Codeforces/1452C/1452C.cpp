@@ -25,32 +25,24 @@ void solve() {
 
     multiset<char> mst;
 
-    int ans = 0;
+    int ans = 0, cntRnd = 0, cntSqr = 0;
 
     for (char &e : s) {
-        if (e == '(' || e == '[') mst.insert(e);
-        else {
-            auto pos1 = mst.find('(');
-            auto pos2 = mst.find('[');
-            if (e == ')' && (pos1 != mst.end())) {
-                ans++;
-                mst.erase(pos1);
-            }
-            if (e == ']' && (pos2 != mst.end())) {
-                ans++;
-                mst.erase(pos2);
-            }
+        if (e == '(') cntRnd++;
+        else if (e == '[') cntSqr++;
+        else if (e == ')' && cntRnd > 0) {
+            ans++;
+            cntRnd--;
         }
-        // else if ((e == ')' && (pos1 != mst.end())) || 
-        //          (e == ']' && (pos2 != mst.end()))) {
-        //     ans++;
-        //     mst.erase(e);
-        // }
+        else if (e == ']' && cntSqr > 0) {
+            ans++;
+            cntSqr--;
+        }
     }
 
-    cout << ans << " ";
+    cout << ans << en;
 
-    brute(s);
+    // brute(s);
 
 }
 
