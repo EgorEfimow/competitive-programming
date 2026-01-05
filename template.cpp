@@ -4,6 +4,7 @@ using namespace std;
 
 #define isz(x) (int)x.size()
 #define en '\n'
+#define ll long long 
 
 void solve() {
     
