@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define isz(x) (int)x.size()
+#define en '\n'
+
+void solve() {
+    long long n, m;
+    cin >> n >> m;
+    if ((n == 1 && m != 1) || (m == 1 && n != 1)) cout << 1 << en;
+    else
+        cout << 1 + (n - 1)*(m - 1) << en;
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t = 1;
+    // cin >> t;
+    while (t--) {
+        solve();
+    }
+
+    return 0;
+}
