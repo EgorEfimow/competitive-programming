@@ -7,6 +7,8 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
+                // "-fsanitize=address,undefined", 
+                "-fno-omit-frame-pointer",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
