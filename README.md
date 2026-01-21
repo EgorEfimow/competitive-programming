@@ -1,19 +1,19 @@
-# 🏆 Competitive Programming Workspace
+# Competitive Programming Workspace
 
 My personal archive of solutions (Codeforces, AtCoder, LeetCode, etc.) featuring a highly automated CLI environment for VS Code.
 
-## 🚀 Features
+## Features
 
-- **⚡ Instant Deployment:** Generates a complete task environment (`.cpp`, I/O files) with a single keystroke using `make`.
-- **📂 Intelligent Routing:** Automatically directs new problems into their respective platform-specific directories.
-- **📝 Dynamic Templating:** Context-aware template selection.
-- **🛠 Integrated Developer Experience (DX):**
+- **Instant Deployment:** Generates a complete task environment (`.cpp`, I/O files) with a single keystroke using `make`.
+- **Intelligent Routing:** Automatically directs new problems into their respective platform-specific directories.
+- **Dynamic Templating:** Context-aware template selection.
+- **Integrated Developer Experience (DX):**
     - **One-Click Testing:** Seamless build, run, and diff-comparison workflow via VS Code Tasks.
     - **Advanced Debugging:** Pre-configured `launch.json` with automatic stream redirection.
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 - Linux / MacOS / WSL
 - `g++` (GCC)
@@ -22,7 +22,7 @@ My personal archive of solutions (Codeforces, AtCoder, LeetCode, etc.) featuring
 
 ---
 
-## 🛠 Usage
+## Usage
 
 ### 1. Initialize a Problem
 Execute `make` from the root directory.
