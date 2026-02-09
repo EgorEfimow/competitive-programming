@@ -18,7 +18,7 @@ My personal archive of solutions (Codeforces, AtCoder, LeetCode, etc.) featuring
 - Linux / MacOS / WSL
 - `g++` (GCC)
 - `make` (GNU Make)
-- VS Code (with C/C++ extension)
+- VS Code (with clangd and codelldb extensions)
 
 ---
 
