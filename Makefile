@@ -27,6 +27,6 @@ TASK_PATH = $(FOLDER)/$@
 		\
 		cp template.cpp $(TASK_PATH)/$@.cpp; \
 		\
-		echo "✅ Problem $@ created in $(FOLDER)"; \
+		echo "Problem $@ created in $(FOLDER)"; \
 		code $(TASK_PATH)/$@.cpp; \
 	fi
