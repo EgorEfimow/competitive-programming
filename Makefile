@@ -1,4 +1,4 @@
-t ?= cf
+t ?= at
 
 ifeq ($(t),cf)
 	FOLDER = Codeforces
