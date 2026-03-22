@@ -21,15 +21,5 @@
             },
             "problemMatcher": "$gcc"
         },
-        {
-            "label": "Compare with Expected",
-            "type": "shell",
-            "command": "code --diff \"${fileDirname}/output.txt\" \"${fileDirname}/expected.txt\"",
-            "presentation": {
-                "reveal": "never",
-                "panel": "shared"
-            },
-            "group": "test"
-        }
     ]
 }
