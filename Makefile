@@ -21,10 +21,6 @@ TASK_PATH = $(FOLDER)/$@
 		echo "❌ Error: $(TASK_PATH) already exists!"; \
 	else \
 		mkdir -p $(TASK_PATH); \
-		touch $(TASK_PATH)/input.txt; \
-		touch $(TASK_PATH)/output.txt; \
-		touch $(TASK_PATH)/expected.txt; \
-		\
 		cp template.cpp $(TASK_PATH)/$@.cpp; \
 		\
 		echo "Problem $@ created in $(FOLDER)"; \

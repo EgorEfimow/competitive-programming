@@ -3,6 +3,7 @@
 using namespace std;
 
 #define isz(x) (int)x.size()
+#define all (x) x.begin(), x.end()
 #define en '\n'
 #define ll long long 
 
