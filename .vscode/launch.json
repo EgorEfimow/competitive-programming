@@ -10,8 +10,8 @@
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "C++ Build", 
             "stdio": [
-                "${workspaceFolder}/input.txt",
-                "${workspaceFolder}/output.txt",
+                "./input.txt",
+                "./output.txt",
                 null
             ]
         }
