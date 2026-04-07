@@ -4,6 +4,7 @@ using namespace std;
 
 #define isz(x) (int)x.size()
 #define all(x) x.begin(), x.end()
+#define rall(x) x.rbegin(), x.rend()
 #define en '\n'
 #define ll long long 
 
