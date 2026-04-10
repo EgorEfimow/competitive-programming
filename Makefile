@@ -8,7 +8,7 @@ else ifeq ($(t),lc)
 	FOLDER = LeetCode
 else ifeq ($(t),cses)
 	FOLDER = CSES
-else ifeq ($(t),acmp)
+else ifeq ($(t),ac)
 	FOLDER = ACMP
 else
 	FOLDER = $(t)
