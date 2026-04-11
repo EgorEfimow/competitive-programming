@@ -7,6 +7,7 @@ using namespace std;
 #define rall(x) x.rbegin(), x.rend()
 #define en '\n'
 #define ll long long 
+#define vi vector<int>
 #define pii pair<int, int>
 
 void solve() {
