@@ -8,6 +8,7 @@ using namespace std;
 #define en '\n'
 #define ll long long 
 #define vi vector<int>
+#define vii vector<vi>
 #define pii pair<int, int>
 
 void solve() {
