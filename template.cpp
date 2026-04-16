@@ -9,7 +9,7 @@ using namespace std;
 #define en '\n'
 #define ll long long 
 #define vi vector<int>
-#define vii vector<vi>
+#define vvi vector<vi>
 #define vll vector<ll>
 #define pii pair<int, int>
 
