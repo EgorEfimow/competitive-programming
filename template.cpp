@@ -12,6 +12,7 @@ using namespace std;
 #define vvi vector<vi>
 #define vll vector<ll>
 #define pii pair<int, int>
+#define vpii vector<pii>
 
 void solve() {
     
