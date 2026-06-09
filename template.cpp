@@ -14,6 +14,25 @@ using namespace std;
 #define pii pair<int, int>
 #define vpii vector<pii>
 
+#pragma region TEMPLATES
+
+template<typename T>
+istream &operator>>(istream &in, vector<T> &a) {
+    for (T &i: a) in >> i;
+    return in;
+}
+
+template<typename T>
+ostream &operator<<(ostream &out, const vector<T> &a) {
+    for (auto i: a) {
+        out << i << " ";
+    }
+    return out;
+}
+
+#pragma endregion
+
+
 void solve() {
     
 }
