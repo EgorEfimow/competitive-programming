@@ -5,33 +5,33 @@ using namespace std;
 #define isz(x) (int)x.size()
 #define all(x) x.begin(), x.end()
 #define rall(x) x.rbegin(), x.rend()
-#define pb push_back
 #define en '\n'
-#define ll long long 
-#define vi vector<int>
-#define vvi vector<vi>
-#define vll vector<ll>
-#define pii pair<int, int>
-#define vpii vector<pii>
+
+using ll  = long long;
+using pii = pair<int, int>;
+using vi  = vector<int>;
+using vvi = vector<vi>;
+using vll = vector<ll>;
+using vpii = vector<pii>;
 
 #pragma region TEMPLATES
 
 template<typename T>
-istream &operator>>(istream &in, vector<T> &a) {
-    for (T &i: a) in >> i;
+istream& operator>>(istream& in, vector<T>& a) {
+    for (T& i : a) 
+        in >> i;
     return in;
 }
 
 template<typename T>
-ostream &operator<<(ostream &out, const vector<T> &a) {
-    for (auto i: a) {
+ostream& operator<<(ostream& out, const vector<T>& a) {
+    for (const auto& i : a) { 
         out << i << " ";
     }
     return out;
 }
 
 #pragma endregion
-
 
 void solve() {
     
