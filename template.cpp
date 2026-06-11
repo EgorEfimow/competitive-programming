@@ -14,8 +14,6 @@ using vvi = vector<vi>;
 using vll = vector<ll>;
 using vpii = vector<pii>;
 
-#pragma region TEMPLATES
-
 template<typename T>
 istream& operator>>(istream& in, vector<T>& a) {
     for (T& i : a) 
@@ -30,8 +28,6 @@ ostream& operator<<(ostream& out, const vector<T>& a) {
     }
     return out;
 }
-
-#pragma endregion
 
 void solve() {
     
