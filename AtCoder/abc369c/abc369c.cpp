@@ -33,6 +33,11 @@ void solve() {
     ll n; cin >> n;
     vll v(n); cin >> v;
 
+    if (n == 1) {
+        cout << 1 << en;
+        return;
+    }
+
     vll diff(n - 1);
     for (int i = 0; i < n - 1; ++i) {
         diff[i] = v[i + 1] - v[i];
