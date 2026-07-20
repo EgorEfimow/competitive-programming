@@ -42,17 +42,13 @@ ll binpow(ll a, ll b, ll MOD) {
 }
 
 void solve() {
-    int x, y; cin >> x >> y;
-    int sum = x + y;
-
-    if (sum % 25) {
-        cout << "No" << en;
-        return;
+    string s; cin >> s;
+    int cnt_e = 0;
+    for (char &c : s)  {
+        if (c == 'E') cnt_e++;
     }
-
-    if (x == (sum / 25) * 16 && y == (sum / 25) * 9)
-        cout << "Yes" << en;
-    else cout << "No" << en;
+    if (cnt_e > isz(s) - cnt_e) cout << "East" << en;
+    else cout << "West" << en;
 }
 
 int main() {
